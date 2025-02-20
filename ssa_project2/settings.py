@@ -22,6 +22,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-tg(z^8+h+ftmghunsjn28i6u)%8h-3j6k&qsy9u8p9j*_bfy)d'
 
+RECAPTCHA_SECRET_KEY = "6LeMRm4qAAAAAPslEmmSL7zQBpwLV-YHw0R99ytB"
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
